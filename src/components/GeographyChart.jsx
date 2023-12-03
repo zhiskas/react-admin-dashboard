@@ -78,7 +78,7 @@ const GeographyChart = ({ isDashboard = false }) => {
             ]
           : undefined
       }
-    />
+    ></ResponsiveChoropleth>
   );
 };
 
