@@ -115,89 +115,100 @@ const Sidebar = () => {
           )}
 
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
-          <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Data
-            </Typography>  
-          <Item
+            </Typography>
+            <Item
               title="Dashboard"
               to="/"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            
           </Box>
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
-          <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Manage Team
-            </Typography>  
-          <Item
+            </Typography>
+            <Item
               title="Team"
               to="/team"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            
           </Box>
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
-          <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
-            Contact
-            </Typography>  
-          <Item
+              Contact
+            </Typography>
+            <Item
               title="Contact"
               to="/contact"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            
           </Box>
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
-          <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
-            Invoice
-            </Typography>  
-          <Item
+              Invoice
+            </Typography>
+            <Item
               title="Invoice"
               to="/invoice"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            
           </Box>
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
-          <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Forms
-            </Typography>  
-          <Item
+            </Typography>
+            <Item
               title="Create user"
               to="/create-user"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            
+          </Box>
+          <Box paddingLeft={isCollapsed ? undefined : "10%"}>
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Calendar
+            </Typography>
+            <Item
+              title="Calendar"
+              to="/calendar"
+              icon={<HomeOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
           </Box>
         </Menu>
       </ProSidebar>
